@@ -16,3 +16,28 @@ userName = "Madhav";
 let isCoach : boolean;
 
 isCoach = true;
+
+// More complex types
+
+let hobbies : string[];
+
+hobbies = ["Sports", "Cooking"];
+
+let person : {
+    name : string;
+    age : number;
+}
+
+person = {
+    name : "Madhav",
+    age : 30
+}
+
+// person = {
+//     isEmployee: true
+// }
+
+let people: {
+    name : string;
+    age : number;
+}[];
