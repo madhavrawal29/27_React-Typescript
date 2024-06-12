@@ -55,3 +55,14 @@ let myRealAge : number | string;
 myRealAge = 30;
 
 myRealAge = "Thirty years old";
+
+
+// Functions & types
+
+function add(a: number, b: number) {
+    return a + b;
+}
+
+function print(value: any) {
+    console.log(value)
+}
