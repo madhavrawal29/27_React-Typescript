@@ -46,4 +46,13 @@ let people: {
 
 let course = 'React - The Complete Guide'
 
-// course = 123456
+// course = 123456                 // will give error
+
+
+// Union Types
+
+let myRealAge : number | string;
+
+myRealAge = 30;
+
+myRealAge = "Thirty years old";
